@@ -25,8 +25,8 @@ console.log(num1,'+', num2, '+',num3, '=', sum);
 var sqrt = sum*sum;
 console.log('Sum-in kvadrati:', sqrt);
 */
-
-// Task3
+/*
+Task3
 var Sum = 0;
 for (let i = 40; i >= 4; i--) {
   if (i % 2 === 0) {
@@ -35,3 +35,18 @@ for (let i = 40; i >= 4; i--) {
   }
 }
 console.log(Sum);
+*/
+// Task4
+
+for (let number = 100; number < 1000; number++) {
+  var a = Math.trunc(number / 100);
+  var b = Math.trunc((number - a * 100) / 10);
+//   var c = number - a * 100 - b * 10;
+  var c = number%10;
+
+  if (a * a * a + b * b * b + c * c * c === number) {
+    console.log(number, "This number is Armstrong number..");
+  } else {
+    console.log(number, "Not an armstrong number");
+  }
+}
