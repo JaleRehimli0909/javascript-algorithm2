@@ -13,7 +13,8 @@ for(let i = 1; i <= 1000; i++){
 console.log('Sayi:',count);
 console.log('Sum:',S);
 */
-// Task2
+/*
+Task2
 
 var num1 = Number(prompt("Enter num1.."));
 var num2 = Number(prompt("Enter num2.."));
@@ -23,4 +24,12 @@ var sum = num1 + num2 + num3;
 console.log(num1,'+', num2, '+',num3, '=', sum);
 var sqrt = sum*sum;
 console.log('Sum-in kvadrati:', sqrt);
+*/
 
+// Task3
+for (let i = 40; i >= 4; i--) {
+    if(i%2 === 0){
+        console.log(i)
+    }
+
+}
