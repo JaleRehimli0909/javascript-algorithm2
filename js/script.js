@@ -27,9 +27,11 @@ console.log('Sum-in kvadrati:', sqrt);
 */
 
 // Task3
+var Sum = 0;
 for (let i = 40; i >= 4; i--) {
-    if(i%2 === 0){
-        console.log(i)
-    }
-
+  if (i % 2 === 0) {
+    console.log(i);
+    Sum += i;
+  }
 }
+console.log(Sum);
