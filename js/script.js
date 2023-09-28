@@ -82,13 +82,37 @@ num2_mod = num2 % 3;
 
 console.log(` ${num1_mod} + ${num2_mod} = ${num1_mod+num2_mod}`);
 */
+/*
+Task7;
 
-Task7
-
-var number = Number(prompt('Enter  a 4-digit number..'));
+var number = Number(prompt("Enter  a 4-digit number.."));
 console.log(number);
 
-var newNumber = (7*10000 + number)*10 +8;
+var newNumber = (7 * 10000 + number) * 10 + 8;
 
-console.log(newNumber)
+console.log(newNumber);
+*/
+// Task8
+
+var num1 = 9;
+var num2 = 5;
+var num3 = num1;
+console.log(num1,num2);
+
+// if(num1 !== num2){
+//   num1 = num2;
+//   num2 = c
+// }
+num3 =num1;
+num1=num2;
+num2=num3;
+
+console.log(num1,num2);
+
+
+
+
+
+
+
 
