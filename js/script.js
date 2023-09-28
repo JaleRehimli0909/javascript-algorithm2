@@ -71,7 +71,7 @@ if (sum === number) {
 }
 console.log(say);
 */
-
+/*
 Task6
 
 var num1 = parseFloat(prompt('Enter num1'));
@@ -81,4 +81,14 @@ num1_mod = num1 % 5;
 num2_mod = num2 % 3;
 
 console.log(` ${num1_mod} + ${num2_mod} = ${num1_mod+num2_mod}`);
+*/
+
+Task7
+
+var number = Number(prompt('Enter  a 4-digit number..'));
+console.log(number);
+
+var newNumber = (7*10000 + number)*10 +8;
+
+console.log(newNumber)
 
