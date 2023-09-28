@@ -99,7 +99,6 @@ var num1 = 9;
 var num2 = 5;
 var num3 = num1;
 console.log(num1,num2);
-
 // if(num1 !== num2){
 //   num1 = num2;
 //   num2 = c
@@ -111,15 +110,18 @@ console.log(num1,num2);
 a = a+b;
 b = a-b;
 a = a-b;
-
 console.log(a,b);
 */
+Task9
+var num1 = Number(prompt('Enter num1..'));
+var num2 = Number(prompt('Enter num2..'));
 
-
-
-
-
-
+console.log(num1, '-', num2);
+var count = 0;
+for(let i = num1; i<= num2; i++){
+  count+=i%2;
+}
+console.log('Araliqdaki tek ededlerin sayi:',count);
 
 
 
