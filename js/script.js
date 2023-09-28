@@ -36,7 +36,7 @@ for (let i = 40; i >= 4; i--) {
 }
 console.log(Sum);
 */
-// Task4
+/* Task4
 
 for (let number = 100; number < 1000; number++) {
   var a = Math.trunc(number / 100);
@@ -50,3 +50,22 @@ for (let number = 100; number < 1000; number++) {
     console.log(number, "Not an armstrong number");
   }
 }
+*/
+/*
+Task5
+
+var number = Number(prompt("Enter number"));
+var sum = 0;
+for (let i = 1; i <= number / 2; i++) {
+  say++;
+  if (number % i === 0) {
+    console.log(i);
+    sum += i;
+  }
+}
+if (sum === number) {
+  console.log(number, "Mukemmel ededdir.");
+} else {
+  console.log(number, "Mukemmel eded deyil.");
+}
+*/
