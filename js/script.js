@@ -54,11 +54,12 @@ for (let number = 100; number < 1000; number++) {
 /*
 Task5
 
+var say = 0;
 var number = Number(prompt("Enter number"));
 var sum = 0;
 for (let i = 1; i <= number / 2; i++) {
   say++;
-  if (number % i === 0) {
+  if (!(number % i)) {
     console.log(i);
     sum += i;
   }
@@ -68,4 +69,16 @@ if (sum === number) {
 } else {
   console.log(number, "Mukemmel eded deyil.");
 }
+console.log(say);
 */
+
+Task6
+
+var num1 = parseFloat(prompt('Enter num1'));
+var num2 = parseFloat(prompt('Enter num2'));
+
+num1_mod = num1 % 5;
+num2_mod = num2 % 3;
+
+console.log(` ${num1_mod} + ${num2_mod} = ${num1_mod+num2_mod}`);
+
