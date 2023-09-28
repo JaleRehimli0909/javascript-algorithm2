@@ -92,7 +92,8 @@ var newNumber = (7 * 10000 + number) * 10 + 8;
 
 console.log(newNumber);
 */
-// Task8
+/*
+Task8
 
 var num1 = 9;
 var num2 = 5;
@@ -103,11 +104,17 @@ console.log(num1,num2);
 //   num1 = num2;
 //   num2 = c
 // }
-num3 =num1;
-num1=num2;
-num2=num3;
+// num3 =num1;
+// num1=num2;
+// num2=num3;
+// esas usul
+a = a+b;
+b = a-b;
+a = a-b;
 
-console.log(num1,num2);
+console.log(a,b);
+*/
+
 
 
 
