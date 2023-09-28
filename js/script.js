@@ -113,7 +113,7 @@ a = a-b;
 console.log(a,b);
 */
 /*
-Task9
+Task9 displacement numbers
 var num1 = Number(prompt('Enter num1..'));
 var num2 = Number(prompt('Enter num2..'));
 
@@ -124,8 +124,8 @@ for(let i = num1; i<= num2; i++){
 }
 console.log('Araliqdaki tek ededlerin sayi:',count);
 */
-
-Task10
+/*
+Task10 for with in for
 
 for(let i = 2; i <= 5; i++){
      var h = 1;
@@ -135,4 +135,15 @@ for(let i = 2; i <= 5; i++){
      }
      console.log(h)
 }
+*/ /*
+Task 11 EBOB
 
+var a = 18;
+var b = 8;
+
+while(a!=b){
+  if(a>b) a-=b;
+  else  b-=a;
+}
+console.log(a,b)
+*/
